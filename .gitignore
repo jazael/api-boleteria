@@ -1,0 +1,4 @@
+/vendor/
+!/logs/README.md
+.idea/
+*.iml

@@ -1,0 +1,25 @@
+{
+    "name": "Boleteria API",
+    "description": "Proyecto para gestionar la venta de boletos a nivel de Manabi",
+    "keywords": ["microframework", "rest", "router", "psr7"],
+    "homepage": "http://github.com/slimphp/Slim-Skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Luis Saldarriaga Sistemas Control",
+            "email": "jluiscontrol@gmail.com",
+            "homepage": "http://www.sistemascontrol.ec/"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.12",
+        "slim/php-view": "^2.2",
+        "firebase/php-jwt": "^5.0",
+        "lichtner/fluentpdo": "^2.1",
+        "monolog/monolog": "^1.25",
+        "phpmailer/phpmailer": "^6.0",
+        "ramsey/uuid": "^3.8",
+        "gladcodes/keygen": "^1.1",
+        "jms/serializer": "1.14.0"
+    }
+}

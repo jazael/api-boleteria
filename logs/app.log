@@ -1,0 +1,27 @@
+[2020-02-01 21:04:35] sis-control-boleteria.ERROR: 2020-02-01 09:04:35 - 2002 - SQLSTATE[HY000] [2002] Permiso denegado [] {"uid":"3cfdf4b"}
+[2020-02-08 15:46:42] sis-control-boleteria.ERROR: 2020-02-08 03:46:42 - 2002 - SQLSTATE[HY000] [2002] Permiso denegado [] {"uid":"a2783b3"}
+[2020-02-08 15:49:43] sis-control-boleteria.INFO: 2020-02-08 03:49:43 - Conectado a MYSQL 5.8. [] {"uid":"ec444b4"}
+[2020-02-08 15:50:33] sis-control-boleteria.INFO: 2020-02-08 03:50:33 - Conectado a MYSQL 5.8. [] {"uid":"4b71de9"}
+[2020-02-08 15:51:25] sis-control-boleteria.INFO: 2020-02-08 03:51:25 - Conectado a MYSQL 5.8. [] {"uid":"cb25c5a"}
+[2020-02-08 15:51:32] sis-control-boleteria.INFO: 2020-02-08 03:51:32 - Conectado a MYSQL 5.8. [] {"uid":"a137d46"}
+[2020-02-08 15:57:57] sis-control-boleteria.INFO: 2020-02-08 03:57:57 - Conectado a MYSQL 5.8. [] {"uid":"1cc1b4f"}
+[2020-02-08 15:58:10] sis-control-boleteria.INFO: 2020-02-08 03:58:10 - Conectado a MYSQL 5.8. [] {"uid":"ee4433d"}
+[2020-02-08 15:58:42] sis-control-boleteria.INFO: 2020-02-08 03:58:42 - Conectado a MYSQL 5.8. [] {"uid":"59e6fb7"}
+[2020-02-08 15:59:27] sis-control-boleteria.INFO: 2020-02-08 03:59:27 - Conectado a MYSQL 5.8. [] {"uid":"df2c18d"}
+[2020-02-08 16:00:00] sis-control-boleteria.INFO: 2020-02-08 04:00:00 - Conectado a MYSQL 5.8. [] {"uid":"5f0e7d9"}
+[2020-02-08 16:02:13] sis-control-boleteria.INFO: 2020-02-08 04:02:13 - Conectado a MYSQL 5.8. [] {"uid":"7f74f14"}
+[2020-02-08 16:04:21] sis-control-boleteria.INFO: 2020-02-08 04:04:21 - Conectado a MYSQL 5.8. [] {"uid":"e6b05ee"}
+[2020-02-08 16:04:48] sis-control-boleteria.INFO: 2020-02-08 04:04:48 - Conectado a MYSQL 5.8. [] {"uid":"b2cf42d"}
+[2020-02-08 16:13:13] sis-control-boleteria.INFO: 2020-02-08 04:13:13 - Conectado a MYSQL 5.8. [] {"uid":"070d527"}
+[2020-02-08 16:23:02] sis-control-boleteria.INFO: 2020-02-08 04:23:02 - Conectado a MYSQL 5.8. [] {"uid":"5fc344a"}
+[2020-02-08 17:13:38] sis-control-boleteria.INFO: 2020-02-08 05:13:38 - Conectado a MYSQL 5.8. [] {"uid":"5628fed"}
+[2020-02-08 17:14:05] sis-control-boleteria.INFO: 2020-02-08 05:14:05 - Conectado a MYSQL 5.8. [] {"uid":"8ecfbcf"}
+[2020-02-08 17:16:34] sis-control-boleteria.INFO: 2020-02-08 05:16:34 - Conectado a MYSQL 5.8. [] {"uid":"e412d55"}
+[2020-02-08 17:17:36] sis-control-boleteria.INFO: 2020-02-08 05:17:36 - Conectado a MYSQL 5.8. [] {"uid":"7fb5322"}
+[2020-02-08 17:18:27] sis-control-boleteria.INFO: 2020-02-08 05:18:27 - Conectado a MYSQL 5.8. [] {"uid":"f73e211"}
+[2020-02-08 17:18:54] sis-control-boleteria.INFO: 2020-02-08 05:18:54 - Conectado a MYSQL 5.8. [] {"uid":"51d2458"}
+[2020-02-08 17:22:06] sis-control-boleteria.INFO: 2020-02-08 05:22:06 - Conectado a MYSQL 5.8. [] {"uid":"79f76ba"}
+[2020-02-15 09:52:30] sis-control-boleteria.INFO: 2020-02-15 09:52:30 - Conectado a MYSQL 5.8. [] {"uid":"99e2288"}
+[2020-02-15 09:52:55] sis-control-boleteria.INFO: 2020-02-15 09:52:55 - Conectado a MYSQL 5.8. [] {"uid":"c2e6663"}
+[2020-02-15 09:53:41] sis-control-boleteria.INFO: 2020-02-15 09:53:41 - Conectado a MYSQL 5.8. [] {"uid":"a7b5cd0"}
+[2020-02-15 09:53:48] sis-control-boleteria.INFO: 2020-02-15 09:53:48 - Conectado a MYSQL 5.8. [] {"uid":"289c1cc"}

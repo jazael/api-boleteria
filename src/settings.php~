@@ -1,0 +1,26 @@
+<?php
+return [
+    'settings' => [
+        // Show Errors in Production (false)
+        'displayErrorDetails' => true,
+        // Renderer settings
+        'renderer' => [
+            'template_path' => __DIR__ . '/../templates/',
+        ],
+        // Monolog settings
+        'logger' => [
+            'name' => 'sis-control-orders',
+            'path' => __DIR__ . '/../logs/app.log',
+        ],
+        // Secret-Key APP
+        'app_token_name'   => 'APP-TOKEN',
+        // Configuración ODBC - DataSource
+        // DNS 192.168.15.10
+        // 181.196.249.227
+        'connectionString' => [
+            'dns'  => 'sqlsrv:Server=181.196.249.227;Database=cpmappweb',
+            'user' => 'cpmlogon',
+            'pass' => 'logon'
+        ],
+    ],
+];
