@@ -1,6 +1,10 @@
 <?php
 $base = __DIR__ . '/../app/';
 $folders = [
+    'core/authentication/route',
+    'core/authentication/model',
+    'core/middleware',
+    'core/resource',
     'core/utilities',
     'modules/empresa/route',
     'modules/empresa/model',

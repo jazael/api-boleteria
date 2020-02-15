@@ -41,7 +41,7 @@ $container['db'] = function($c) {
 // Models
 $container['model'] = function($c) {
     return (object) [
-        //'auth' => new App\Core\Authentication\Model\Authentication($c->db, $c->logger),
+        'auth' => new App\Core\Authentication\Model\Authentication($c->db, $c->logger),
         'empresa' => new App\Modules\Empresa\Model\Empresa($c->db, $c->logger),
         'agencia' => new App\Modules\Agencia\Model\Agencia($c->db, $c->logger),
         'bus' => new App\Modules\Bus\Model\Bus($c->db, $c->logger),

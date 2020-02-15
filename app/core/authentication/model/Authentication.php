@@ -59,36 +59,6 @@ class Authentication
         }
     }
 
-    public function guests(String $user, String $password) {
-        $resulSet = null;
-
-        try {
-            $resulSet = $this->db
-                ->getPdo()
-                ->query("SELECT even.even_codigo, usr_agd_even.usr_agd_even_tokenexpired as token
-                    FROM AGDEvento even, AGDUsuarioAgendaEvento usr_agd_even, AGDBpmUsuariosDep usr_bpm
-                    WHERE even.even_codigo = usr_agd_even.even_codigo 
-                    AND usr_bpm.bpm_usr_dep_codigo = usr_agd_even.usr_agd_codigo
-                    AND even.even_estado = 'ACTIVO'
-                    AND DATEDIFF(mi, GETDATE(), (even_fecha_fin + even_hora_fin)) > 0
-                    AND usr_agd_even.usr_agd_even_otpcode = '$password'
-                    AND usr_bpm.bpm_usr_dep_correo = '$user'");
-
-            $objectGuests = $resulSet->fetch();
-
-            if($objectGuests != null || $objectGuests) {
-                AuthJWT::checkIfUserValid($objectGuests->token);
-                $this->response->result = $objectGuests->token;
-                return $this->response->SetResponse(true);
-            } else {
-                return $this->response->SetResponse(false, 'Credenciales no validas');
-            }
-        } catch (Exception $ex) {
-            $this->logger->error(date('Y-m-d h:i:s') .' - '. $ex->getCode() .' - '. $ex->getMessage());
-            return $this->response->SetResponse(false, 'Credenciales no validas');
-        }
-    }
-
     public function refreshToken(String $token) {
         $jwtRefresh = null;
 

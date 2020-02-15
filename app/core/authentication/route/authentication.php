@@ -10,7 +10,7 @@ $app->group('/auth/', function () {
         $parameters = $req->getParsedBody();
         return $res->withHeader('Content-type', 'application/json')
             ->write(
-                json_encode($this->model->auth->authentication($parameters['user'], $parameters['password']))
+                json_encode($this->model->auth->authentication($parameters['username'], $parameters['password']))
             );
     });
 
