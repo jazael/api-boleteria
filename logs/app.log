@@ -107,3 +107,21 @@
 [2020-03-13 18:48:02] sis-control-boleteria.INFO: 2020-03-13 06:48:02 - Conectado a MYSQL 5.8. [] {"uid":"9086834"}
 [2020-03-13 19:06:09] sis-control-boleteria.INFO: 2020-03-13 07:06:09 - Conectado a MYSQL 5.8. [] {"uid":"ab7e914"}
 [2020-03-13 19:06:58] sis-control-boleteria.INFO: 2020-03-13 07:06:58 - Conectado a MYSQL 5.8. [] {"uid":"a38fec8"}
+[2020-03-14 09:29:27] sis-control-boleteria.INFO: 2020-03-14 09:29:27 - Conectado a MYSQL 5.8. [] {"uid":"1a94b71"}
+[2020-03-14 09:30:41] sis-control-boleteria.INFO: 2020-03-14 09:30:41 - Conectado a MYSQL 5.8. [] {"uid":"07821b1"}
+[2020-03-14 09:31:27] sis-control-boleteria.INFO: 2020-03-14 09:31:27 - Conectado a MYSQL 5.8. [] {"uid":"131953c"}
+[2020-03-14 09:31:57] sis-control-boleteria.INFO: 2020-03-14 09:31:57 - Conectado a MYSQL 5.8. [] {"uid":"11ff018"}
+[2020-03-14 09:32:27] sis-control-boleteria.INFO: 2020-03-14 09:32:27 - Conectado a MYSQL 5.8. [] {"uid":"20b5545"}
+[2020-03-14 09:32:43] sis-control-boleteria.INFO: 2020-03-14 09:32:43 - Conectado a MYSQL 5.8. [] {"uid":"b7aa28c"}
+[2020-03-14 09:33:22] sis-control-boleteria.INFO: 2020-03-14 09:33:22 - Conectado a MYSQL 5.8. [] {"uid":"500925b"}
+[2020-03-14 09:33:38] sis-control-boleteria.INFO: 2020-03-14 09:33:38 - Conectado a MYSQL 5.8. [] {"uid":"25bd1b9"}
+[2020-03-14 09:33:58] sis-control-boleteria.INFO: 2020-03-14 09:33:58 - Conectado a MYSQL 5.8. [] {"uid":"27748ee"}
+[2020-03-14 09:35:22] sis-control-boleteria.INFO: 2020-03-14 09:35:22 - Conectado a MYSQL 5.8. [] {"uid":"e3e8d42"}
+[2020-03-14 09:35:48] sis-control-boleteria.INFO: 2020-03-14 09:35:48 - Conectado a MYSQL 5.8. [] {"uid":"fd3cdd0"}
+[2020-03-14 09:36:23] sis-control-boleteria.INFO: 2020-03-14 09:36:23 - Conectado a MYSQL 5.8. [] {"uid":"955fe5e"}
+[2020-03-14 09:36:31] sis-control-boleteria.INFO: 2020-03-14 09:36:31 - Conectado a MYSQL 5.8. [] {"uid":"e74dc99"}
+[2020-03-14 09:57:56] sis-control-boleteria.INFO: 2020-03-14 09:57:56 - Conectado a MYSQL 5.8. [] {"uid":"29a2cd9"}
+[2020-03-14 09:58:02] sis-control-boleteria.INFO: 2020-03-14 09:58:02 - Conectado a MYSQL 5.8. [] {"uid":"3883423"}
+[2020-03-14 10:02:08] sis-control-boleteria.INFO: 2020-03-14 10:02:08 - Conectado a MYSQL 5.8. [] {"uid":"36d1eee"}
+[2020-03-14 10:02:08] sis-control-boleteria.ERROR: 2020-03-14 10:02:08 - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ctrl_boleteria`.`cliente`, CONSTRAINT `cliente_persona_fk_001` FOREIGN KEY (`idpersona`) REFERENCES `personas` (`id`)) [] {"uid":"36d1eee"}
+[2020-03-14 10:02:23] sis-control-boleteria.INFO: 2020-03-14 10:02:23 - Conectado a MYSQL 5.8. [] {"uid":"a18dc7c"}

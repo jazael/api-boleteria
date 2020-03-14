@@ -47,5 +47,6 @@ $container['model'] = function($c) {
         'bus' => new App\Modules\Bus\Model\Bus($c->db, $c->logger),
         'persona' => new App\Modules\persona\Model\persona($c->db, $c->logger),
         'usuario' => new App\Modules\usuario\Model\usuario($c->db, $c->logger),
+        'cliente' => new App\Modules\cliente\Model\cliente($c->db, $c->logger),
     ];
 };

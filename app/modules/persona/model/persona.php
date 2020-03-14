@@ -48,15 +48,15 @@ class Persona {
     }
 
     public function findPersonaByCedula(String $cedula){
-        $id = null;
+        $countPerson = null;
         try{
             $queryExecute = $this->db
                 ->from('personas')
                 ->select(null)
-                ->select('count(id)')
+                ->select('count(id) as counter')
                 ->where('cedula', $cedula)
                 ->orderBy('id ASC');
-            $id = $queryExecute->fetch();
+            $countPerson = $queryExecute->fetch();
             $this->status = 'success';
             $this->result = true;
         }catch (Exception $ex){
@@ -64,7 +64,8 @@ class Persona {
             $this->result = false;
             $this->logger->error(date('Y-m-d h:i:s') .' - '. $ex->getCode() .' - '. $ex->getMessage());
         }
-        return ['count' => $id, 'status' => $this->status];
+
+        return ['count' => (int) $countPerson->counter, 'status' => $this->status];
     }
 
     public function registroInterno($data = []) {

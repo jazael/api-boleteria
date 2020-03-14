@@ -16,6 +16,8 @@ $folders = [
     'modules/persona/model',
     'modules/usuario/route',
     'modules/usuario/model',
+    'modules/cliente/route',
+    'modules/cliente/model',
 ];
 
 foreach($folders as $f) {
