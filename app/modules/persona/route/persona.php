@@ -8,43 +8,35 @@
 
 use App\Core\Middleware\AuthMiddleware;
 
-$app->group('/empresa/', function () {
+$app->group('/persona/', function () {
 
     $this->post('registrar', function ($req, $res, $args) {
         $data = $req->getParsedBody();
         return $res->withHeader('Content-type', 'application/json')
             ->write(
-                json_encode($this->model->empresa->registrar($data))
+                json_encode($this->model->persona->registrar($data))
             );
     });
 
-    $this->get('listar/{fechainicio}/{fechafin}/{estado}', function ($req, $res, $args) {
+    $this->get('listar/{estado}', function ($req, $res, $args) {
         return $res->withHeader('Content-type', 'application/json')
             ->write(
-                json_encode($this->model->empresa->listar($args['fechainicio'], $args['fechafin'], $args['estado']))
+                json_encode($this->model->persona->listar($args['estado']))
             );
     });
 
     $this->put('actualizar', function ($req, $res, $args) {
-        $data = $req->getParsedBody();
-        var_dump($data);die;
+        $data = $req->getBody();
         return $res->withHeader('Content-type', 'application/json')
             ->write(
-                json_encode($this->model->empresa->actualizar($data))
+                json_encode($this->model->persona->actualizar($data))
             );
     });
 
     $this->delete('eliminar/{id}', function ($req, $res, $args) {
         return $res->withHeader('Content-type', 'application/json')
             ->write(
-                json_encode($this->model->empresa->eliminar($args['id']))
-            );
-    });
-
-    $this->get('listamultiple/{params}', function ($req, $res, $args) {
-        return $res->withHeader('Content-type', 'application/json')
-            ->write(
-                json_encode($this->model->empresa->listamultiple($args['params']))
+                json_encode($this->model->persona->eliminar($args['id']))
             );
     });
 });

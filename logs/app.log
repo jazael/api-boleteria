@@ -36,3 +36,74 @@
 [2020-02-15 11:36:17] sis-control-boleteria.INFO: 2020-02-15 11:36:17 - Conectado a MYSQL 5.8. [] {"uid":"0b3ae3b"}
 [2020-02-15 11:37:56] sis-control-boleteria.INFO: 2020-02-15 11:37:56 - Conectado a MYSQL 5.8. [] {"uid":"4f0884e"}
 [2020-02-15 11:39:12] sis-control-boleteria.INFO: 2020-02-15 11:39:12 - Conectado a MYSQL 5.8. [] {"uid":"4ee55fd"}
+[2020-02-15 12:02:34] sis-control-boleteria.ERROR: 2020-02-15 12:02:34 - 1049 - SQLSTATE[HY000] [1049] Unknown database 'control_boleteria' [] {"uid":"4f06637"}
+[2020-02-15 12:12:58] sis-control-boleteria.ERROR: 2020-02-15 12:12:58 - 1049 - SQLSTATE[HY000] [1049] Unknown database 'control_boleteria' [] {"uid":"e12139c"}
+[2020-02-15 13:41:52] sis-control-boleteria.ERROR: 2020-02-15 01:41:52 - 1049 - SQLSTATE[HY000] [1049] Unknown database 'control_boleteria' [] {"uid":"e60ec6a"}
+[2020-02-15 13:50:04] sis-control-boleteria.ERROR: 2020-02-15 01:50:04 - 1049 - SQLSTATE[HY000] [1049] Unknown database 'control_boleteria' [] {"uid":"ed7db9b"}
+[2020-02-15 13:52:59] sis-control-boleteria.ERROR: 2020-02-15 01:52:59 - 1049 - SQLSTATE[HY000] [1049] Unknown database 'control_boleteria' [] {"uid":"d7c435d"}
+[2020-02-15 13:59:55] sis-control-boleteria.ERROR: 2020-02-15 01:59:55 - 1049 - SQLSTATE[HY000] [1049] Unknown database 'control_boleteria' [] {"uid":"32a1b7c"}
+[2020-02-15 14:00:35] sis-control-boleteria.ERROR: 2020-02-15 02:00:35 - 1049 - SQLSTATE[HY000] [1049] Unknown database 'control_boleteria' [] {"uid":"bb16894"}
+[2020-02-15 14:05:00] sis-control-boleteria.INFO: 2020-02-15 02:05:00 - Conectado a MYSQL 5.8. [] {"uid":"f067909"}
+[2020-02-15 14:05:08] sis-control-boleteria.INFO: 2020-02-15 02:05:08 - Conectado a MYSQL 5.8. [] {"uid":"6609a01"}
+[2020-02-15 14:18:07] sis-control-boleteria.INFO: 2020-02-15 02:18:07 - Conectado a MYSQL 5.8. [] {"uid":"72559ca"}
+[2020-02-15 14:44:07] sis-control-boleteria.INFO: 2020-02-15 02:44:07 - Conectado a MYSQL 5.8. [] {"uid":"a1e0c49"}
+[2020-02-15 15:00:55] sis-control-boleteria.INFO: 2020-02-15 03:00:55 - Conectado a MYSQL 5.8. [] {"uid":"80832ce"}
+[2020-02-15 16:09:14] sis-control-boleteria.INFO: 2020-02-15 04:09:14 - Conectado a MYSQL 5.8. [] {"uid":"e8bc8df"}
+[2020-03-01 12:48:34] sis-control-boleteria.INFO: Slim-Skeleton '/' route [] {"uid":"a946d6c"}
+[2020-03-09 11:46:22] sis-control-boleteria.INFO: Slim-Skeleton '/' route [] {"uid":"f90d427"}
+[2020-03-13 14:25:19] sis-control-boleteria.INFO: 2020-03-13 02:25:19 - Conectado a MYSQL 5.8. [] {"uid":"5dbac1d"}
+[2020-03-13 14:25:19] sis-control-boleteria.INFO: 2020-03-13 02:25:19 - Conectado a MYSQL 5.8. [] {"uid":"ed277e8"}
+[2020-03-13 14:25:20] sis-control-boleteria.INFO: 2020-03-13 02:25:20 - Conectado a MYSQL 5.8. [] {"uid":"3a60f8f"}
+[2020-03-13 14:25:20] sis-control-boleteria.INFO: 2020-03-13 02:25:20 - Conectado a MYSQL 5.8. [] {"uid":"9ab263a"}
+[2020-03-13 14:25:20] sis-control-boleteria.INFO: 2020-03-13 02:25:20 - Conectado a MYSQL 5.8. [] {"uid":"2f3d098"}
+[2020-03-13 14:25:21] sis-control-boleteria.INFO: 2020-03-13 02:25:21 - Conectado a MYSQL 5.8. [] {"uid":"d0c6a9b"}
+[2020-03-13 14:25:52] sis-control-boleteria.INFO: 2020-03-13 02:25:52 - Conectado a MYSQL 5.8. [] {"uid":"c24db0b"}
+[2020-03-13 14:27:12] sis-control-boleteria.INFO: 2020-03-13 02:27:12 - Conectado a MYSQL 5.8. [] {"uid":"0d9c83b"}
+[2020-03-13 14:27:25] sis-control-boleteria.INFO: 2020-03-13 02:27:25 - Conectado a MYSQL 5.8. [] {"uid":"ebceefa"}
+[2020-03-13 14:27:29] sis-control-boleteria.INFO: 2020-03-13 02:27:29 - Conectado a MYSQL 5.8. [] {"uid":"983d0b1"}
+[2020-03-13 14:27:37] sis-control-boleteria.INFO: 2020-03-13 02:27:37 - Conectado a MYSQL 5.8. [] {"uid":"64c7e84"}
+[2020-03-13 14:27:45] sis-control-boleteria.INFO: 2020-03-13 02:27:45 - Conectado a MYSQL 5.8. [] {"uid":"e8d09ff"}
+[2020-03-13 14:28:03] sis-control-boleteria.INFO: 2020-03-13 02:28:03 - Conectado a MYSQL 5.8. [] {"uid":"9d85de5"}
+[2020-03-13 14:28:41] sis-control-boleteria.INFO: 2020-03-13 02:28:41 - Conectado a MYSQL 5.8. [] {"uid":"0149724"}
+[2020-03-13 14:28:52] sis-control-boleteria.INFO: 2020-03-13 02:28:52 - Conectado a MYSQL 5.8. [] {"uid":"0eda1ee"}
+[2020-03-13 14:31:01] sis-control-boleteria.INFO: 2020-03-13 02:31:01 - Conectado a MYSQL 5.8. [] {"uid":"ab16993"}
+[2020-03-13 14:31:21] sis-control-boleteria.INFO: 2020-03-13 02:31:21 - Conectado a MYSQL 5.8. [] {"uid":"0f49ca6"}
+[2020-03-13 14:35:33] sis-control-boleteria.INFO: 2020-03-13 02:35:33 - Conectado a MYSQL 5.8. [] {"uid":"638ce31"}
+[2020-03-13 15:33:29] sis-control-boleteria.INFO: 2020-03-13 03:33:29 - Conectado a MYSQL 5.8. [] {"uid":"8ef035a"}
+[2020-03-13 15:33:44] sis-control-boleteria.INFO: 2020-03-13 03:33:44 - Conectado a MYSQL 5.8. [] {"uid":"6facea0"}
+[2020-03-13 15:33:44] sis-control-boleteria.ERROR: 2020-03-13 03:33:44 - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'hasgs' for key 'razon_social' [] {"uid":"6facea0"}
+[2020-03-13 15:33:44] sis-control-boleteria.INFO: 2020-03-13 03:33:44 - Conectado a MYSQL 5.8. [] {"uid":"678ab11"}
+[2020-03-13 15:33:44] sis-control-boleteria.ERROR: 2020-03-13 03:33:44 - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'hasgs' for key 'razon_social' [] {"uid":"678ab11"}
+[2020-03-13 15:33:45] sis-control-boleteria.INFO: 2020-03-13 03:33:45 - Conectado a MYSQL 5.8. [] {"uid":"5a24af0"}
+[2020-03-13 15:33:45] sis-control-boleteria.ERROR: 2020-03-13 03:33:45 - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'hasgs' for key 'razon_social' [] {"uid":"5a24af0"}
+[2020-03-13 15:33:46] sis-control-boleteria.INFO: 2020-03-13 03:33:46 - Conectado a MYSQL 5.8. [] {"uid":"cd69210"}
+[2020-03-13 15:33:46] sis-control-boleteria.ERROR: 2020-03-13 03:33:46 - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'hasgs' for key 'razon_social' [] {"uid":"cd69210"}
+[2020-03-13 15:33:46] sis-control-boleteria.INFO: 2020-03-13 03:33:46 - Conectado a MYSQL 5.8. [] {"uid":"8330826"}
+[2020-03-13 15:33:46] sis-control-boleteria.ERROR: 2020-03-13 03:33:46 - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'hasgs' for key 'razon_social' [] {"uid":"8330826"}
+[2020-03-13 15:33:51] sis-control-boleteria.INFO: 2020-03-13 03:33:51 - Conectado a MYSQL 5.8. [] {"uid":"ad57e74"}
+[2020-03-13 15:33:51] sis-control-boleteria.ERROR: 2020-03-13 03:33:51 - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'hasgs' for key 'razon_social' [] {"uid":"ad57e74"}
+[2020-03-13 15:34:38] sis-control-boleteria.INFO: Slim-Skeleton '/' route [] {"uid":"7ef7095"}
+[2020-03-13 15:36:15] sis-control-boleteria.INFO: 2020-03-13 03:36:15 - Conectado a MYSQL 5.8. [] {"uid":"db7f199"}
+[2020-03-13 15:37:41] sis-control-boleteria.INFO: Slim-Skeleton '/' route [] {"uid":"c50d1cb"}
+[2020-03-13 15:37:43] sis-control-boleteria.INFO: Slim-Skeleton '/' route [] {"uid":"f471f2a"}
+[2020-03-13 15:41:11] sis-control-boleteria.INFO: 2020-03-13 03:41:11 - Conectado a MYSQL 5.8. [] {"uid":"e09d844"}
+[2020-03-13 17:25:37] sis-control-boleteria.INFO: 2020-03-13 05:25:37 - Conectado a MYSQL 5.8. [] {"uid":"86e79c1"}
+[2020-03-13 17:26:11] sis-control-boleteria.INFO: 2020-03-13 05:26:11 - Conectado a MYSQL 5.8. [] {"uid":"bb54c03"}
+[2020-03-13 17:29:35] sis-control-boleteria.INFO: 2020-03-13 05:29:35 - Conectado a MYSQL 5.8. [] {"uid":"d71c526"}
+[2020-03-13 17:31:35] sis-control-boleteria.INFO: 2020-03-13 05:31:35 - Conectado a MYSQL 5.8. [] {"uid":"046c34d"}
+[2020-03-13 17:31:35] sis-control-boleteria.ERROR: 2020-03-13 05:31:35 - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1313306431' for key 'cedula' [] {"uid":"046c34d"}
+[2020-03-13 17:31:57] sis-control-boleteria.INFO: 2020-03-13 05:31:57 - Conectado a MYSQL 5.8. [] {"uid":"5c8081f"}
+[2020-03-13 18:18:10] sis-control-boleteria.INFO: 2020-03-13 06:18:10 - Conectado a MYSQL 5.8. [] {"uid":"c5ac06c"}
+[2020-03-13 18:19:16] sis-control-boleteria.INFO: 2020-03-13 06:19:16 - Conectado a MYSQL 5.8. [] {"uid":"ac5c3b1"}
+[2020-03-13 18:22:18] sis-control-boleteria.INFO: 2020-03-13 06:22:18 - Conectado a MYSQL 5.8. [] {"uid":"ccf4baa"}
+[2020-03-13 18:22:18] sis-control-boleteria.ERROR: 2020-03-13 06:22:18 - 0 - You must pass a value, or provide the SET list as an associative array. column => value [] {"uid":"ccf4baa"}
+[2020-03-13 18:25:08] sis-control-boleteria.INFO: 2020-03-13 06:25:08 - Conectado a MYSQL 5.8. [] {"uid":"6e726a2"}
+[2020-03-13 18:25:19] sis-control-boleteria.INFO: 2020-03-13 06:25:19 - Conectado a MYSQL 5.8. [] {"uid":"00e479c"}
+[2020-03-13 18:25:19] sis-control-boleteria.ERROR: 2020-03-13 06:25:19 - 42S22 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cedula' in 'field list' [] {"uid":"00e479c"}
+[2020-03-13 18:46:31] sis-control-boleteria.INFO: 2020-03-13 06:46:31 - Conectado a MYSQL 5.8. [] {"uid":"1f06caf"}
+[2020-03-13 18:47:34] sis-control-boleteria.INFO: 2020-03-13 06:47:34 - Conectado a MYSQL 5.8. [] {"uid":"aca9dc8"}
+[2020-03-13 18:47:54] sis-control-boleteria.INFO: 2020-03-13 06:47:54 - Conectado a MYSQL 5.8. [] {"uid":"e82db75"}
+[2020-03-13 18:47:54] sis-control-boleteria.ERROR: 2020-03-13 06:47:54 - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ctrl_boleteria`.`usuario`, CONSTRAINT `usuario_personas_fk_001` FOREIGN KEY (`idpersona`) REFERENCES `personas` (`id`)) [] {"uid":"e82db75"}
+[2020-03-13 18:48:02] sis-control-boleteria.INFO: 2020-03-13 06:48:02 - Conectado a MYSQL 5.8. [] {"uid":"9086834"}
+[2020-03-13 19:06:09] sis-control-boleteria.INFO: 2020-03-13 07:06:09 - Conectado a MYSQL 5.8. [] {"uid":"ab7e914"}
+[2020-03-13 19:06:58] sis-control-boleteria.INFO: 2020-03-13 07:06:58 - Conectado a MYSQL 5.8. [] {"uid":"a38fec8"}
