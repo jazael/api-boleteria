@@ -18,6 +18,12 @@ $folders = [
     'modules/usuario/model',
     'modules/cliente/route',
     'modules/cliente/model',
+    'modules/lugar/route',
+    'modules/lugar/model',
+    'modules/ruta/route',
+    'modules/ruta/model',
+    'modules/ticket/route',
+    'modules/ticket/model',
 ];
 
 foreach($folders as $f) {

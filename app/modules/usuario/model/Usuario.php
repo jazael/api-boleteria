@@ -5,14 +5,14 @@
  * Date: 01/02/20
  * Time: 12:37
  */
-namespace App\Modules\cliente\Model;
+namespace App\Modules\Usuario\Model;
 
 use App\Core\Utilities\Response,
     DateTimeZone, DateTime,
     \Exception,
     App\Modules\Persona\Model\Persona;
 
-class Cliente {
+class Usuario {
     private $db;
     private $logger;
     private $timeZone;
@@ -46,12 +46,14 @@ class Cliente {
                 $result = $personaEntity->registroInterno($arrPersona);
                 if($result['status'] === 'success'){
                     $idpersona = $result['id'];
-                    $arrCliente['idpersona'] = $idpersona;
-                    $arrCliente['estado'] = $data['estado'];
-                    $arrCliente['createdby'] = $data['createdby'];
-                    $arrCliente['createdat'] = $this->currentDate->format("Y-m-d H:i:s");
+                    $arrUsuario['username'] = $data['username'];
+                    $arrUsuario['password'] = $data['password'];
+                    $arrUsuario['idpersona'] = $idpersona;
+                    $arrUsuario['estado'] = $data['estado'];
+                    $arrUsuario['createdby'] = $data['createdby'];
+                    $arrUsuario['createdat'] = $this->currentDate->format("Y-m-d H:i:s");
                     $this->db
-                        ->insertInto('cliente', $arrCliente)
+                        ->insertInto('usuario', $arrUsuario)
                         ->execute();
                     $this->status = 'success';
                     $this->result = true;
@@ -76,12 +78,12 @@ class Cliente {
         $arrUsuario = [];
         try {
             $queryExecute = $this->db
-                ->from('cliente')
-                ->leftJoin('personas ON personas.id = cliente.idpersona')
+                ->from('usuario')
+                ->leftJoin('personas ON personas.id = usuario.idpersona')
                 ->select(null)
-                ->select(['cliente.id','cedula','concat(nombres," ",apellidos) as nombrecompleto'])
-                ->where('cliente.estado', $estado)
-                ->orderBy('cliente.id ASC');
+                ->select(['usuario.id','cedula','concat(nombres," ",apellidos) as nombrecompleto','username'])
+                ->where('usuario.estado', $estado)
+                ->orderBy('usuario.id ASC');
             $arrUsuario = $queryExecute->fetchAll();
             $this->status = 'success';
             $this->result = true;
@@ -108,13 +110,15 @@ class Cliente {
             $arrPersona['updatedat'] = $this->currentDate->format("Y-m-d H:i:s");
             $result = $personaEntity->actualizarInterno($arrPersona);
             if($result['status'] === 'success'){
-                $arrCliente['id'] = $data['id'];
-                $arrCliente['idpersona'] = $data['idpersona'];;
-                $arrCliente['estado'] = $data['estado'];
-                $arrCliente['updatedby'] = $data['updatedby'];
-                $arrCliente['updatedat'] = $this->currentDate->format("Y-m-d H:i:s");
-                $this->db->update('cliente', $arrCliente)
-                    ->where('id', $arrCliente['id'])
+                $arrUsuario['id'] = $data['id'];
+                $arrUsuario['username'] = $data['username'];
+                $arrUsuario['password'] = $data['password'];
+                $arrUsuario['idpersona'] = $data['idpersona'];;
+                $arrUsuario['estado'] = $data['estado'];
+                $arrUsuario['updatedby'] = $data['updatedby'];
+                $arrUsuario['updatedat'] = $this->currentDate->format("Y-m-d H:i:s");
+                $this->db->update('usuario', $arrUsuario)
+                    ->where('id', $arrUsuario['id'])
                     ->execute();
                 $this->status = 'success';
                 $this->result = true;

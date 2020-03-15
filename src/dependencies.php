@@ -27,7 +27,6 @@ $container['db'] = function($c) {
     try {
         $connectionString = $c->get('settings')['connectionString'];
         $pdo = new PDO($connectionString['dns'], $connectionString['user'], $connectionString['pass']);
-        //$pdo->setAttribute(PDO::MY);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
         $connection = new \Envms\FluentPDO\Query($pdo);
@@ -45,8 +44,11 @@ $container['model'] = function($c) {
         'empresa' => new App\Modules\Empresa\Model\Empresa($c->db, $c->logger),
         'agencia' => new App\Modules\Agencia\Model\Agencia($c->db, $c->logger),
         'bus' => new App\Modules\Bus\Model\Bus($c->db, $c->logger),
-        'persona' => new App\Modules\persona\Model\persona($c->db, $c->logger),
-        'usuario' => new App\Modules\usuario\Model\usuario($c->db, $c->logger),
-        'cliente' => new App\Modules\cliente\Model\cliente($c->db, $c->logger),
+        'persona' => new App\Modules\Persona\Model\Persona($c->db, $c->logger),
+        'usuario' => new App\Modules\Usuario\Model\Usuario($c->db, $c->logger),
+        'cliente' => new App\Modules\Cliente\Model\Cliente($c->db, $c->logger),
+        'lugar' => new App\Modules\Lugar\Model\Lugar($c->db, $c->logger),
+        'ruta' => new App\Modules\Ruta\Model\Ruta($c->db, $c->logger),
+        'ticket' => new App\Modules\Ticket\Model\Ticket($c->db, $c->logger),
     ];
 };

@@ -5,7 +5,7 @@
  * Date: 01/02/20
  * Time: 12:37
  */
-namespace App\Modules\persona\Model;
+namespace App\Modules\Persona\Model;
 
 use App\Core\Utilities\Response,
     DateTimeZone, DateTime,

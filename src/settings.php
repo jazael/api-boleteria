@@ -15,7 +15,7 @@ return [
         // Secret-Key APP
         'app_token_name'   => 'APP-TOKEN',
         'connectionString' => [
-            'dns'  => 'mysql:host=localhost;dbname=ctrl_boleteria',
+            'dns'  => 'mysql:host=localhost;dbname=control_boleteria',
             'user' => 'root',
             'pass' => ''
         ],
